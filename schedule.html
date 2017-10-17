@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<link rel="stylesheet" href="./css/reset.css" type="text/css" />
 	<link rel="stylesheet" href="./css/style.css" type="text/css" />
-	<title>Lab 4</title>
+	<title>Lab 5</title>
 </head>
 <body>
 	<div id="container">
@@ -13,10 +13,10 @@
 			<h1>Личная страница (блог) ФИО</h1>
 			<nav class="menu">
 				<ul>
-					<li><a href="./">Главная страница</a></li>
+					<li><a href="./" class="current"><img src="./images/home-icon.png" /></a></li>
 					<li><a href="./news.html">Новости</a></li>
 					<li><a href="./photo.html">Фотоальбом</a></li>
-					<li><a href="./schedule.html" class="current">Расписание</a></li>
+					<li><a href="./schedule.html">Расписание</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -24,67 +24,74 @@
 			<header>
 				<h2>Расписание</h2>
 			</header>
-			<div class="schedule_block"><table>
-				<tr><th>Вторник</th><th>Среда</th><th>Четверг</th><th>Пятница</th><th>Суббота</th></tr>
-				<tr align="center">
-					<td><table border="1">
-						<tr><th>Время</th><th>Предмет (группа)</th></tr>
-						<tr align="center"><td>11:25 - 12:45</td><td>Front-end технологии<br>(1 гр)<br>37 (I)</td></tr>
-						<tr align="center"><td>12:55 - 14:15</td><td><table width="100%">
-							<tr align="center"><td>Front-end технологии<br>(лекция)<br>54 (I)</td></tr>
-							<tr align="center"><td><hr></td></tr>
-							<tr align="center"><td align="center">-</td></tr>
-						</table></td></tr>
-						<tr align="center"><td>14:30 - 15:50</td><td>Front-end технологии<br>(2 гр)<br>37 (I)</td></tr>
-					</table></td>
-					<td><table border="1">
-						<tr><th>Время</th><th>Предмет</th></tr>
-						<tr align="center"><td></td><td><table width="100%"><tr align="center"><th width="50%">3 подгруппа</th><th>4 подгруппа</th></tr></table></td></tr>
-						<tr align="center"><td>11:25 - 12:45</td><td>-</td></tr>
-						<tr align="center"><td>12:55 - 14:15</td><td><table width="100%">
-							<tr align="center"><td width="50%">Практ. по прогр.<br>213 (VI)</td><td>-</td></tr>
-						</table></td></tr>
-						<tr align="center"><td>14:30 - 15:50</td><td><table width="100%">
-							<tr align="center"><td width="50%">Практ. по прогр.<br>213 (VI)</td><td>Практ. по прогр.<br>40 (I)</td></tr>
-						</table></td></tr>
-						<tr align="center"><td>16:05 - 17:25</td><td><table width="100%">
-							<tr align="center"><td width="50%">-</td><td>Практ. по прогр.<br>40 (I)</td></tr>
-						</table></td></tr>
-					</table></td>
-					<td><table border="1">
-						<tr><th>Время</th><th>Предмет</th></tr>
-						<tr align="center"><td></td><td><table width="100%"><tr align="center"><th width="50%">3 подгруппа</th><th>4 подгруппа</th></tr></table></td></tr>
-						<tr align="center"><td>11:25 - 12:45</td><td>Теория вероятности<br>62 (I)</td></tr>
-						<tr align="center"><td>12:55 - 14:15</td><td><table width="100%">
-							<tr align="center"><td width="50%">Практ. по прогр.<br>213 (VI)</td><td>Практ. по прогр.<br>40 (I)</td></tr>
-						</table></td></tr>
-						<tr align="center"><td>14:30 - 15:50</td><td>Основы прогр. инж.<br>62 (I)</td></tr>
-					</table></td>
-					<td><table border="1">
-						<tr><th>Время</th><th>Предмет</th></tr>
-						<tr align="center"><td></td><td><table width="100%"><tr align="center"><th width="50%">3 подгруппа</th><th>4 подгруппа</th></tr></table></td></tr>
-						<tr align="center"><td>11:25 - 12:45</td><td><table width="100%">
-							<tr align="center"><td width="50%">Основы прогр. инж.<br>38 (I)</td><td>Основы прогр. инж.<br>213 (ск)</td></tr>
-						</table></td></tr>
-						<tr align="center"><td>12:55 - 14:15</td><td><table width="100%">
-							<tr align="center"><td width="50%">Основы прогр. инж.<br>38 (I)</td><td>Основы прогр. инж.<br>104 (II)</td></tr>
-						</table></td></tr>
-						<tr align="center"><td>14:30 - 15:50</td><td>Иностранный язык</td></tr>
-					</table></td>
-					<td><table border="1">
-						<tr><th>Время</th><th>Предмет</th></tr>
-						<tr align="center"><td></td><td><table width="100%"><tr align="center"><th width="50%">3 подгруппа</th><th>4 подгруппа</th></tr></table></td></tr>
-						<tr align="center"><td>09:35 - 10:55</td><td>Теория вероятности<br>305 (VI)</td></tr>
-						<tr align="center"><td>11:25 - 12:45</td><td>Конструирование прогр. обеспеч.<br>62 (I)</td></tr>
-						<tr align="center"><td>12:55 - 14:15</td><td><table width="100%">
-							<tr align="center"><td width="50%">Конструирование прогр. обеспеч.<br>38 (I)</td><td>Конструирование прогр. обеспеч.<br>213 (VI)</td></tr>
-						</table></td></tr>
-					</table></td>
-				</tr>
-			</table></div>
+			<div class="schedule_block">
+				<table border="1"><caption>Понедельник</caption>
+					<tr><th>Время</th><th>Предмет (группа)</th></tr>
+					<tr align="center"><td>11:25 - 12:45</td><td>Front-end технологии<br>(1 гр)<br>37 (I)</td></tr>
+					<tr align="center"><td>12:55 - 14:15</td><td><table width="100%">
+						<tr align="center"><td>Front-end технологии<br>(лекция)<br>54 (I)</td></tr>
+						<tr align="center"><td><hr></td></tr>
+						<tr align="center"><td align="center">-</td></tr>
+					</table></td></tr>
+					<tr align="center"><td>14:30 - 15:50</td><td>Front-end технологии<br>(2 гр)<br>37 (I)</td></tr>
+				</table>
+				<table border="1"><caption>Вторник</caption>
+					<tr><th>Время</th><th>Предмет</th></tr>
+					<tr align="center"><td></td><td><table width="100%"><tr align="center"><th width="50%">3 подгруппа</th><th>4 подгруппа</th></tr></table></td></tr>
+					<tr align="center"><td>11:25 - 12:45</td><td>-</td></tr>
+					<tr align="center"><td>12:55 - 14:15</td><td><table width="100%">
+						<tr align="center"><td width="50%">Практ. по прогр.<br>213 (VI)</td><td>-</td></tr>
+					</table></td></tr>
+					<tr align="center"><td>14:30 - 15:50</td><td><table width="100%">
+						<tr align="center"><td width="50%">Практ. по прогр.<br>213 (VI)</td><td>Практ. по прогр.<br>40 (I)</td></tr>
+					</table></td></tr>
+					<tr align="center"><td>16:05 - 17:25</td><td><table width="100%">
+						<tr align="center"><td width="50%">-</td><td>Практ. по прогр.<br>40 (I)</td></tr>
+					</table></td></tr>
+				</table>
+				<table border="1"><caption>Среда</caption>
+					<tr><th>Время</th><th>Предмет</th></tr>
+					<tr align="center"><td></td><td><table width="100%"><tr align="center"><th width="50%">3 подгруппа</th><th>4 подгруппа</th></tr></table></td></tr>
+					<tr align="center"><td>11:25 - 12:45</td><td>Теория вероятности<br>62 (I)</td></tr>
+					<tr align="center"><td>12:55 - 14:15</td><td><table width="100%">
+						<tr align="center"><td width="50%">Практ. по прогр.<br>213 (VI)</td><td>Практ. по прогр.<br>40 (I)</td></tr>
+					</table></td></tr>
+					<tr align="center"><td>14:30 - 15:50</td><td>Основы прогр. инж.<br>62 (I)</td></tr>
+				</table>
+				<table border="1"><caption>Четверг</caption>
+					<tr><th>Время</th><th>Предмет</th></tr>
+					<tr align="center"><td></td><td><table width="100%"><tr align="center"><th width="50%">3 подгруппа</th><th>4 подгруппа</th></tr></table></td></tr>
+					<tr align="center"><td>11:25 - 12:45</td><td><table width="100%">
+						<tr align="center"><td width="50%">Основы прогр. инж.<br>38 (I)</td><td>Основы прогр. инж.<br>213 (ск)</td></tr>
+					</table></td></tr>
+					<tr align="center"><td>12:55 - 14:15</td><td><table width="100%">
+						<tr align="center"><td width="50%">Основы прогр. инж.<br>38 (I)</td><td>Основы прогр. инж.<br>104 (II)</td></tr>
+					</table></td></tr>
+					<tr align="center"><td>14:30 - 15:50</td><td>Иностранный язык</td></tr>
+				</table>
+				<table border="1"><caption>Пятница</caption>
+					<tr><th>Время</th><th>Предмет</th></tr>
+					<tr align="center"><td></td><td><table width="100%"><tr align="center"><th width="50%">3 подгруппа</th><th>4 подгруппа</th></tr></table></td></tr>
+					<tr align="center"><td>09:35 - 10:55</td><td>Теория вероятности<br>305 (VI)</td></tr>
+					<tr align="center"><td>11:25 - 12:45</td><td>Конструирование прогр. обеспеч.<br>62 (I)</td></tr>
+					<tr align="center"><td>12:55 - 14:15</td><td><table width="100%">
+						<tr align="center"><td width="50%">Конструирование прогр. обеспеч.<br>38 (I)</td><td>Конструирование прогр. обеспеч.<br>213 (VI)</td></tr>
+					</table></td></tr>
+				</table>
+				<table border="1"><caption>Суббота</caption>
+					<tr><th>Время</th><th>Предмет</th></tr>
+					<tr align="center"><td></td><td><table width="100%"><tr align="center"><th width="50%">3 подгруппа</th><th>4 подгруппа</th></tr></table></td></tr>
+					<tr align="center"><td>09:35 - 10:55</td><td>Теория вероятности<br>305 (VI)</td></tr>
+					<tr align="center"><td>11:25 - 12:45</td><td>Конструирование прогр. обеспеч.<br>62 (I)</td></tr>
+					<tr align="center"><td>12:55 - 14:15</td><td><table width="100%">
+						<tr align="center"><td width="50%">Конструирование прогр. обеспеч.<br>38 (I)</td><td>Конструирование прогр. обеспеч.<br>213 (VI)</td></tr>
+					</table></td></tr>
+				</table>
+			</div>
 		</section>
 		<footer>
 			<p>Copyright 2017</p>
+			<div class="pageup"><a href="#">В начало</a></div>
 		</footer>
 	</div>
 </body>
