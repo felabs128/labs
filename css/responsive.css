@@ -1,0 +1,15 @@
+@media(max-width:500px){
+	#container{
+		width: 90%!important;
+	}
+	.menu ul li{
+		display: block!important;
+		float: none!important;
+		margin-top: 5px;
+	}
+	.menu ul li a{
+		display: block!important;
+		line-height: 16px!important;
+		border-radius: 6px;
+	}
+}

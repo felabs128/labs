@@ -1,3 +1,5 @@
+@import 'responsive.css';
+
 html, body{
 	background: #f0f9ff;
 	background: -webkit-linear-gradient(#f0f9ff, white);
@@ -14,6 +16,11 @@ figcaption{color:#980023}
 
 table caption{font-weight:bold}
 h2{margin-top:20px}
+
+.disclaimer{
+	color: red;
+	padding: 10px;
+}
 
 .menu{
 	overflow: hidden;
@@ -55,7 +62,7 @@ h2{margin-top:20px}
 }
 
 footer{
-	text-align: center;;
+	text-align: center;
 }
 footer div{
 	margin: 10px;
@@ -73,5 +80,5 @@ footer p{
 }
 
 .news_item, .photo_item{
-	padding: 10px
+	padding: 10px;
 }

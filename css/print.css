@@ -1,0 +1,17 @@
+@media print{
+	html, body{
+		background: #fff;
+		padding: 50px;
+	}
+	#header, #footer, img{
+		display: none;
+	}
+	a:after{
+		content: " (" attr(href) ") ";
+		font-size: 0.8em;
+		font-weight: normal;
+	}
+	h1, h2, p{
+		font-family: "Times New Roman", Times;
+	}
+}
